@@ -1,0 +1,7 @@
+{
+  "name": "Grupal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
