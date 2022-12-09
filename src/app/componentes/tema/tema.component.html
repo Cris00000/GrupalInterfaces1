@@ -1,4 +1,4 @@
-<ion-accordion-group expand="inset">
+<ion-accordion-group expand="inset" class="ion-hide-lg-up">
   <ion-accordion>
     <ion-item slot="header" color="primary">
       <ion-label>Tema 1</ion-label>
@@ -40,4 +40,65 @@
     </div>
   </ion-accordion>
 </ion-accordion-group>
+
+<ion-grid class="ion-hide-lg-down">
+  <ion-row size="12">
+    <ion-col size-xs="12" size-l="12" size-xl="12">
+      <div id="codigo">
+        <h6>Código: 1234</h6>
+      </div>
+    </ion-col>
+    <ion-col size-xs="12" size-md="6" size-lg="4" size-xl="4">
+      <ion-accordion-group expand="inset">
+      <ion-accordion>
+        <ion-item slot="header" color="primary">
+          <ion-label>Tema 1</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <a href="#">Aplicaciones híbridas y nativas</a> 
+        </div>
+        <div class="ion-padding" slot="content">
+          <a href="#">Componentes, propiedades, atributos y eventos</a> 
+        </div>
+        <div class="ion-padding" slot="content">
+          <a href="#">Librerías de componentes</a> 
+        </div>
+        <div class="ion-padding" slot="content" id="anadir">
+          <ion-input type="text" placeholder="Añadir apartado"></ion-input>
+          <ion-button>
+            <ion-icon name="add" color="dark"></ion-icon>
+          </ion-button>
+        </div>
+      </ion-accordion>
+      </ion-accordion-group>
+    </ion-col>
+    <ion-col size-xs="12" size-md="6" size-lg="4" size-xl="4">
+      <ion-accordion-group expand="inset" class="ion-hide-lg-down">
+        <ion-accordion class="ion-no-padding">
+          <ion-item slot="header" color="primary">
+            <ion-label>Tema 2</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <a href="#">Herramientas de edición de interfaces</a> 
+          </div>
+          <div class="ion-padding" slot="content">
+            <a href="#">Componentes, propiedades, atributos y eventos</a> 
+          </div>
+          <div class="ion-padding" slot="content">
+            <a href="#">Interfaces dinámicas y estáticas</a> 
+          </div>
+          <div class="ion-padding" slot="content" id="anadir">
+            <ion-input type="text" placeholder="Añadir apartado"></ion-input>
+            <ion-button>
+              <ion-icon name="add" color="dark"></ion-icon>
+            </ion-button>
+          </div>
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+
 
