@@ -5,7 +5,7 @@
         <ion-icon name="chevron-back"></ion-icon>
       </ion-button>
     </ion-buttons>
-    <ion-title color="light">Híbridas y Nativas</ion-title>
+    <ion-title color="light">Interfaces estáticas y dinámicas</ion-title>
     <ion-buttons slot="end">
       <ion-button href="/contenido-clase">
         <ion-icon name="pencil"></ion-icon>
@@ -15,12 +15,36 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
-  <h1>Aplicaciones Híbridas</h1>
-  <h3>Características</h3>
+  <h1>Interfaces estáticas</h1>
+  <p>Una interfaz estática está generalmente basada en HTML. Esto quiere decir que el código se sube a internet para que el usuario pueda interactuar con ella.</p>
+  <p>Las interfaces estáticas son una buena opción en caso de no actualizar con frecuencia su contenido.</p>
+  <h3>Ventajas</h3>
+  <ul>
+    <li>Es muy rápida de crear por la sencillez del lenguaje.</li>
+    <li>Tiene una mayor velocidad de carga, ya que se reduce a código HTML y no tiene muchas más funcionalidades.</li>
+    <li>Como el tiempo de respuesta es menor, tiene mejor posicionamiento SEO.</li>
+  </ul>
+  <h3>Inconvenientes</h3>
+  <ul>
+    <li>No tiene muchas opciones de diseño. Sus opciones son muy limitadas.</li>
+    <li>Se necesita tener conocimientos de programación para modificar el HTML.</li>
+    <li>A pesar de poder insertar un ID de Analytics y tener cierta información sobre las interacciones del usuario, no es posible conocer todas las acciones que el usuario realiza</li>
+  </ul>
+  <h1>Interfaces dinámicas</h1>
+  <p>Una interfaz dinámica permite cambiar y actualizar su contenido constantemente, ya sea un texto o una imagen,   y además interactuar con el usuario de más formas (Comentarios de una publicación, encuestas, ventas de productos…).</p>
+  <p>Como este tipo de páginas son más complejas, hay CMS (o sistemas de gestión de contenido) que hacen que crearlas sea más sencillo. Por ejemplo: Wordpress.</p>
+  <p>Las páginas dinámicas suelen combinarse con PHP y MySQL.</p>
+  <h3>Ventajas</h3>
+  <ul>
+    <li>Si se recurre a un sistema de gestión de contenido para crearla, se puede hacer un gran número de cosas y añadir más opciones mediante plugins.</li>
+    <li>Es fácil de actualizar y con pocos clicks en el CMS es posible cambiar el contenido de la página y su diseño.</li>
+    <li>Tiene muchas más opciones de interacción con el usuario al poder adaptar la información de diferentes formas</li>
+  </ul>
+  <h3>Inconvenientes</h3>
+  <ul>
+    <li>Como tiene más funcionalidades, necesita más recursos que una página estática. También necesita una base de datos en la que se guarda el contenido que se vaya a mostrar.</li>
+    <li>El diseño de la interfez puede estar limitado, ya que el contenido de la misma suele estar basado en información de bases de datos y la presentación de los datos se basa en la estructura de la misma</li>
+  </ul>
 
-  <p></p>
-  <p>Phasellus sit amet iaculis odio, eget feugiat erat. Etiam sit amet turpis sit amet massa viverra maximus. Aenean venenatis porttitor pharetra. Fusce vulputate urna purus, vel efficitur mauris auctor non. Etiam libero odio, sodales in velit a, faucibus venenatis erat. Ut convallis sit amet urna in ultrices. Cras neque est, vehicula sed lorem ac, placerat commodo elit. Praesent turpis metus, elementum eget iaculis ac, elementum in odio. Nunc et elit faucibus, condimentum mauris consequat, ornare dolor. Sed ac lectus a est blandit tempor. Etiam lobortis tristique maximus.</p>
-  <p>Quisque tempus porttitor massa, vel condimentum risus finibus a. Aliquam viverra maximus odio, id ornare justo tristique ac. Mauris euismod arcu eget neque sagittis rutrum. Ut vehicula porta lacus nec lobortis. Vestibulum et elit ultrices, lacinia metus in, lobortis est. Vivamus nisi justo, venenatis sit amet arcu ac, congue faucibus justo. Duis volutpat posuere enim, vel sagittis elit dictum et. Sed et congue mauris. Nam venenatis venenatis risus, ac condimentum neque sagittis sed. In eget nulla ultricies urna sollicitudin posuere. Aenean sagittis congue mauris. Proin nec libero mi. In hac habitasse platea dictumst. Praesent nunc nulla, dictum id molestie sed, pretium vitae turpis.</p>
-  <p>Pellentesque vitae dapibus lacus. Nullam suscipit ornare risus quis ullamcorper. Nullam feugiat, sapien et sodales fermentum, risus ligula semper risus, id efficitur ligula augue id diam. Suspendisse lobortis est sit amet quam facilisis, ut vestibulum nunc dignissim. Donec at vestibulum magna. Maecenas maximus pretium metus. Phasellus congue sapien vel odio imperdiet, nec mollis odio euismod. Sed vel eros ut sapien accumsan condimentum vehicula vitae lectus. Donec sed efficitur lorem. Aenean tristique mi libero, eleifend tincidunt libero finibus at. Mauris condimentum fermentum rutrum.</p>
-  <p>Nulla tristique ultricies suscipit. Donec non ornare elit. Vivamus id pretium mauris, nec sagittis leo. Fusce mattis eget est id sollicitudin. Suspendisse dictum sem magna, in imperdiet metus suscipit et. Suspendisse enim enim, venenatis et orci eu, suscipit congue lacus. Praesent vel ligula non eros tempor interdum. Proin justo orci, ultricies vitae diam sed, semper consectetur ligula. Aenean finibus ante velit, nec efficitur libero cursus cursus. Duis mi nunc, imperdiet sed condimentum vel, porttitor ut lacus. Quisque dui ipsum, vehicula sed vestibulum id, semper vel libero. Suspendisse tincidunt mollis condimentum. Nulla facilisi. Etiam neque nisl, egestas nec iaculis sed, tristique faucibus sem. Sed mollis dui quis ligula cursus rutrum.</p>
+  <p>Ninguna interfaz es necesariamente peor que la otra. Todo depende de para qué se vaya a utilizar</p>
 </ion-content>
