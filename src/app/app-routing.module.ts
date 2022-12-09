@@ -29,7 +29,15 @@ const routes: Routes = [
   {
     path: 'contenido5',
     loadChildren: () => import('./contenido5/contenido5.module').then( m => m.Contenido5PageModule)
+  },  {
+    path: 'crear-clase',
+    loadChildren: () => import('./crear-clase/crear-clase.module').then( m => m.CrearClasePageModule)
+  },
+  {
+    path: 'crear-tema',
+    loadChildren: () => import('./crear-tema/crear-tema.module').then( m => m.CrearTemaPageModule)
   }
+
 ];
 @NgModule({
   imports: [

@@ -1,0 +1,56 @@
+ion-card{
+    --justify-content: center !important;
+    --align-content: center !important;
+}
+
+ion-content {
+    --background: #40526a !important;
+}
+
+#formulario{
+width: 100%;
+display: flex;
+flex-direction: row;
+
+}
+#titulo{
+    width: 100%;
+}
+#titulo p{
+    font-size: 1.5rem;
+    color: black;
+}
+#info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#info p {
+    text-align: center;
+}
+#codigo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#codigo input{
+    font-size: 1rem;
+}
+#botonUnirse{
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#tarjeta{
+    width: 100%;
+    position: absolute; 
+    top: 25%;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}

@@ -1,3 +1,7 @@
+ion-content {
+    --background: #40526a !important;
+}
+
 
 ion-item{
     --background: none !important;
@@ -37,4 +41,12 @@ ion-note{
     color: black;
     display: flex;
     justify-content: center;
+}
+
+p{
+    color: antiquewhite;
+}
+
+ion-note{
+    color: antiquewhite;
 }

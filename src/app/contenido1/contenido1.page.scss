@@ -10,6 +10,25 @@ ion-header{
     width: 0px;
 }
 ion-title{
-    padding-top: 30%;
-    padding-bottom: 10%;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+#ejemplos{
+    display: flex;
+    flex-direction: row;
+  
+}
+img{
+    width: 20%;
+    padding-right: 10px;
+}
+ul{
+    padding-right:16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1{
+    color:  rgb(55, 139, 248);
+    font-style: unset;
 }
