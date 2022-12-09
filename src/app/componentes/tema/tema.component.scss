@@ -1,0 +1,14 @@
+ion-button{
+    --background:none !important;
+    --box-shadow: none !important;
+}
+
+#anadir{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}

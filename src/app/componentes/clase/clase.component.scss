@@ -1,0 +1,22 @@
+ion-button{
+    --background:none !important;
+}
+
+#contenidoClase{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 10px;
+}
+
+h5{
+    color: antiquewhite;
+}
+
+a{
+    color: antiquewhite;
+}
